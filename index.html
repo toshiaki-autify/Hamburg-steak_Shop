@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ハンバーグ専門店 | メニュー・店舗情報・アクセス</title>
+<meta name="description" content="鉄板で焼き上げるハンバーグ専門店。メニュー、営業時間、アクセスのご案内。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@600;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="#top">ハンバーグ専門店</a>
+  <nav aria-label="メインメニュー">
+    <a href="#menu">メニュー</a>
+    <a href="#info">店舗情報</a>
+    <a href="#access">アクセス</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="hero-sub">肉汁を閉じ込めて、鉄板で仕上げる</p>
+    <h1>焼きたての<br>ハンバーグを、<br>熱いうちに。</h1>
+    <p class="hero-price">定食 <strong>1,380</strong>円から</p>
+    <a class="btn" href="#menu">メニューを見る</a>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>メニュー</h2>
+    <p class="note">ご飯・味噌汁・サラダが付きます。ご飯はおかわり自由です。</p>
+    <ul class="menu-list">
+      <li><span class="name">デミグラスハンバーグ定食<small>じっくり煮込んだ自家製デミグラスソース</small></span><span class="price">1,380円</span></li>
+      <li><span class="name">おろしポン酢ハンバーグ定食<small>大根おろしとポン酢でさっぱり</small></span><span class="price">1,380円</span></li>
+      <li><span class="name">チーズハンバーグ定食<small>とろけるチーズをのせて</small></span><span class="price">1,580円</span></li>
+      <li><span class="name">目玉焼きハンバーグ定食<small>半熟の卵をからめて</small></span><span class="price">1,480円</span></li>
+      <li><span class="name">ダブルハンバーグ定食<small>肉の量が2倍、食べごたえ重視</small></span><span class="price">1,980円</span></li>
+    </ul>
+    <h3>サイドメニュー・ドリンク</h3>
+    <ul class="menu-list compact">
+      <li><span class="name">ライス大盛り</span><span class="price">100円</span></li>
+      <li><span class="name">コーンスープ</span><span class="price">300円</span></li>
+      <li><span class="name">ソフトドリンク</span><span class="price">350円</span></li>
+    </ul>
+    <p class="note">価格は税込です。メニュー・価格は仮の内容です。</p>
+  </section>
+
+  <section id="info" class="section alt">
+    <h2>店舗情報</h2>
+    <dl class="info">
+      <dt>店名</dt><dd>ハンバーグ専門店(店名を入れてください)</dd>
+      <dt>住所</dt><dd>〒000-0000 東京都○○区○○ 0-0-0</dd>
+      <dt>電話番号</dt><dd><a href="tel:0000000000">00-0000-0000</a></dd>
+      <dt>営業時間</dt><dd>ランチ 11:00〜14:30(L.O. 14:00)<br>ディナー 17:30〜21:30(L.O. 21:00)</dd>
+      <dt>定休日</dt><dd>水曜日</dd>
+      <dt>席数</dt><dd>24席(カウンター8席、テーブル16席)</dd>
+      <dt>お支払い</dt><dd>現金、クレジットカード、電子マネー</dd>
+    </dl>
+    <p class="note">掲載内容は仮です。実際の情報に書き換えてください。</p>
+  </section>
+
+  <section id="access" class="section">
+    <h2>アクセス</h2>
+    <p class="lead">○○駅の△番出口から徒歩3分です。</p>
+    <ol class="route">
+      <li>○○駅の△番出口を出て、右へ進みます。</li>
+      <li>最初の信号を渡り、コンビニの角を左へ曲がります。</li>
+      <li>左手にある赤い看板の店が目印です。</li>
+    </ol>
+    <p>駐車場はありません。近くのコインパーキングをご利用ください。</p>
+    <!-- 住所を入れたら、下の「q=」の後ろも同じ住所に書き換えてください -->
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD" target="_blank" rel="noopener">地図を開く</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year">2026</span> ハンバーグ専門店</p>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
